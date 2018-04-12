@@ -2,6 +2,6 @@ FROM registry.cn-shanghai.aliyuncs.com/ketao/facenet:latest
 
 ADD . /AM-Softmax
 
-RUN pip3 install easydict
+RUN pip3 install easydict scikit-image
 
 ENV PYTHONPATH=/facenet PYTHONUNBUFFERED=0
